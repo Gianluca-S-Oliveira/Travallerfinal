@@ -18,3 +18,4 @@ CREATE TABLE usuarios (
   senha VARCHAR(100) NOT NULL,
   comentarios TEXT
 );
+se o seu locahost possuir um nome ou senha, só ir no código até a conexão e colocar la o nome dos respectivos citados anteriormente.
