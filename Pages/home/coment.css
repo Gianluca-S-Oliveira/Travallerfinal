@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@200&display=swap");
+body {
+    font-family: "Fira Sans", sans-serif;
+  }
+.inserido{
+    /* background-image: url("../../IMGS/user.png"); */
+    background-size: cover;
+    height: 100px;
+    background-repeat: none;
+    width: 100px;
+  }
+  .fa-user{
+    font-size: 3rem;
+    /* border: 1px solid black;   */
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #00a36d;
+    margin-right: 10px;
+  }
+.form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+  
+}
+
+.form textarea{
+    min-width: 70%;
+ 
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 1px 2px 2px #00a36d;
+}
+.form textarea:focus{
+    outline: 0;
+    box-shadow: 1px 1px 5px 5px #00fca8ab;
+    transition: 0.9s;
+}
+.form button{
+    width: 250px;
+    /* margin: 2px 36%; */
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    padding: 20px 0px;
+    font-size: 1rem;
+    background-color: rgb(4, 160, 108);
+    font-weight: 600;
+    color: white;
+    box-shadow: 2px 2px 21px 2px rgba(0, 0, 0, 0.158);
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: #0dca8b;
+    transition: 1.2s;
+}
+textarea {
+    resize: none;
+}
+.comentarios{
+    /* background-color: red; */
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-weight: 800;
+    margin: 5% 0px;
+    font-size: 2.1rem;
+
+}
+.nome{
+    /* background-color: blue; */
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* margin-left: 2%; */
+    color: #005236;
+  
+}
+.comentario__unico{
+    /* background-color: yellow; */
+    text-transform: lowercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* margin-left: 2%; */
+    color: #141414;
+
+
+}
+
+/* @media screen and (max-width: 500px) {
+ 
+} */

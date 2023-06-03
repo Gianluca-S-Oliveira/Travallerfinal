@@ -1,0 +1,197 @@
+body{
+    overflow-x:hidden ;
+}
+.restaurant_container {
+    width: 100%; /* Definindo a largura como 100% */
+    position: relative; /* Definindo a posição como relativa */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    place-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    /* background-color: #5696a7; */
+  }
+  
+  .restaurant_container svg {
+    position: absolute; /* Definindo a posição como absoluta */
+    bottom: 0; /* Posicionando o SVG no canto inferior esquerdo */
+    opacity: 0.5;
+    left: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .food{
+    z-index: 2;
+    /* background-color: blue; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .food img {
+    max-width: 450px;
+    filter: drop-shadow(1px 15px 10px  rgba(0,0,0,0.4));
+
+
+  }
+  .food_text {
+    flex: 1;
+    /* background-color: blue; */
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+    backdrop-filter:blur(10px) ;
+    /* border: 1px solid #14131311; */
+    background-color: transparent;
+    border-radius: 20px;
+    z-index: 3;
+
+
+    /* box-shadow: 2px 2px 10px 15px #0000001c; */
+    justify-content: space-between;
+    place-items: center;
+  }
+     
+  .food_text::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 150px;
+    height: 4px;
+    background: #0239a0;
+  }
+  #btn_restaurante{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    width: 250px;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    margin-top: 5%;
+    
+    /* adicionar transição para suavizar a mudança */
+    transition: background-image 0.8s ease-in-out;
+    
+    /* criar gradiente de fundo com cores */
+    background-image: linear-gradient(to right, #286c6d, rgb(29, 172, 164));
+    background-size: 200% 100%;
+    background-position: left center;
+  }
+  #btn_restaurante:hover{
+    cursor: pointer;
+    background-position: right center;
+  }
+  @media screen and (max-width: 900px) {
+    .food, .food_text {
+    min-width: 100%;
+    /* background-color: red; */
+
+  }
+  }
+  @media screen and (max-width: 600px) {
+    .food, .food_text {
+      max-width: 100%;
+      /* background-color: red; */
+    }
+
+    
+  }
+  /* @import url(//fonts.googleapis.com/css?family=Lato:300:400); */
+
+
+
+
+
+
+
+.logo {
+  width:50px;
+  fill:white;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:20vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+
+  max-height:650px;
+}
+
+/* .content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: rgb(0, 0, 0);
+} */
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:140px;
+    min-height:140px;
+  }
+  .content {
+    height:30vh;
+  }
+
+}

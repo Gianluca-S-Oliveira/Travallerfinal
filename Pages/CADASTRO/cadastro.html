@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="../../CSS/Cadastro/cadastro.css">
+
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/ab00d86059.js" crossorigin="anonymous"></script>
+    <section class="container">
+        <form class="form" action="cadastro.php" method="POST">
+
+
+            <h2>CADASTRE-SE JÁ!</h2>
+            <div class="cadastro">
+
+                <div class="input-div ">
+
+                    <input class="input" type="text" autocomplete="off"  name="nome" placeholder="Como quer ser chamado?" required>
+
+                    <i class="fas fa-user i"></i>
+
+                </div>
+
+            </div>
+            <div class="input-div ">
+
+                <input class="input" type="email" name="email" autocomplete="off"  placeholder="email" required>
+                <i class="fas fa-solid fa-envelope i"></i>
+            </div>
+            <div class="input-div ">
+
+                <div>
+
+                    <input class="input" type="password" id="senha1" name="senha" placeholder="Senha" required> <i
+                        class="fas fa-lock i"></i>
+                </div>
+
+            </div>
+            <div class="input-div ">
+
+                <input class="input" type="password" name="senha" id="senha2" required
+                    placeholder="Repita a senha por favor">
+                <i class="fas fa-sharp fa-solid fa-key i"></i>
+
+            </div>
+            <h4 class="confereSenha" style="display:none">aaaaaaaa</h4>
+            <input class="btn" type="submit" value="Registrar" onclick="return confereSenha(event)">
+
+        </form>
+
+    </section>
+    <script src="../../Scripts/confere.js"></script>
+</body>
+
+</html>

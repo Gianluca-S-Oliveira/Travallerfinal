@@ -1,0 +1,153 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@200&display=swap");
+body {
+    font-family: "Fira Sans", sans-serif;
+  }
+.section-header {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+
+
+
+a, a:link, a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+
+.Carousel-slider {
+    height: 560px;
+    /* background-color: red; */
+    position: relative;
+    width: 100%;
+    background-color: rgb(4, 73, 44);
+}
+
+.Carousel-slider.fullwidth {
+    height: 500px;
+}
+
+.Carousel-slider.fullwidth .slider-item {
+    height: 480px;
+    line-height: 480px;
+    width: 100%
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 0 50%;
+	perspective: 800px  !important;
+}
+
+.slider-item {
+    /* box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12); */
+    display: none;
+    height: 370px;
+    left: 0;
+    position: absolute;
+  
+    text-align: center;
+    top: 0;
+    background-size: contain;
+    background-repeat: none;
+    width: 420px;
+
+    cursor: pointer;
+	/* border: 5px solid #0bc4a5; */
+    /* backdrop-filter: blur(30px); */
+}
+#Carousel-slider{
+    background-color: rgb(4, 73, 44);
+}
+.texto_carros{
+font-size: 2rem;
+
+margin-top: 70%;
+}
+.texto_carros{
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+.indicators {
+	top: 0;
+    left: 50%;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0 0 -77px;
+    position: absolute;
+}
+.btn__aluga{
+    padding: 20px 70px;
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.151));
+    background-color: #0eccac;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+.btn__aluga:hover{
+    background-color: #0eccac;
+  border: 2px solid #0eccac ;
+    font-weight: 800;
+  color: #0eccac;
+    background-color: rgba(255, 255, 255, 0.856);
+    text-transform: uppercase;
+    transition: 1.2s;
+}
+.indicators li {
+    color: #0eccac;
+    float: left;
+    height: 16px;
+    margin-right: 8px;
+    text-align: center;
+    width: 16px;
+}
+
+.indicators li:last-child {margin: 0;}
+.indicators a {
+    background: #2ce6a8;
+    border-radius: 8px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.indicators .active a {
+	background: #012514;
+
+}
+.superHero1 {background-image: url(../../IMGS/Carros/img/superhero1.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px !important;}
+.superHero2 {background: url(../../IMGS/Carros/img/superhero2.png);     background-size: contain;
+    background-repeat: no-repeat;border-radius: 50px !important;}
+.superHero3 {background: url(../../IMGS/Carros/img/superhero3.png);    background-size: contain;
+    background-repeat: no-repeat;border-radius: 50px !important;}
+.superHero4 {background: url(../../IMGS/Carros/img/superhero4.png);    background-size: contain;
+    background-repeat: no-repeat;border-radius: 50px !important;}
+.superHero5 {background: url(../../IMGS/Carros/img/superhero5.png);    background-size: contain;
+    background-repeat: no-repeat;border-radius: 50px !important;}
+.superHero6 {background: url(../../IMGS/Carros/img/superhero6.png);    background-size: contain;
+    background-repeat: no-repeat;border-radius: 50px !important;}
+.superHero7 {background: url(../../IMGS/Carros/img/superhero7.png);    background-size: contain;
+    background-repeat: no-repeat;border-radius: 50px !important;}
+
+
+ 
+ 

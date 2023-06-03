@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@200&display=swap");
+body {
+    font-family: "Fira Sans", sans-serif;
+  }
+body {
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.banner{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: center;
+   min-height: 100vh;  
+overflow-x: hidden;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+
+}
+.banner img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    filter: brightness(40%);
+
+}
+.textbox{
+
+    position: relative;
+    /* background-color: red; */
+width: 50%;
+height: 70%;
+/* background-color: red; */
+
+margin:5% 10%;
+    
+    padding: 30px;
+
+
+}
+.textbox p{
+color: white;
+font-size: 1.5rem;
+margin:  5% 0px;    animation:backInLeft;
+animation-duration: 1.2s;
+}
+.texto__principal{
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 4px;
+    animation:backInLeft;
+    animation-duration: 2.1s;
+   
+}
+
+.btn{
+    padding: 15px 50px;
+    background-color: #073b8813;
+    margin: 0px auto;
+    color: white;
+    border: 2px solid #fcfcfc;
+    border-radius: 70px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    animation:backInLeft;
+    transition: background-image 0.8s ease-in-out;
+    animation-duration: 1.5s;
+}
+.btn:hover{
+    background-image: linear-gradient(to right, #2e4242, #1daca4);
+    color: white;
+    cursor: pointer;
+border: none;
+}
+@media (max-width: 690px) {
+    .textbox{
+        width: 100%;
+        margin: 0px;
+        /* background-color: red; */
+        
+    }}

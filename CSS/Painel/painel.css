@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@200&display=swap");
+body {
+    font-family: "Fira Sans", sans-serif;
+  }
+.letranome {
+  padding: 42px;
+  width: 40px;
+  border: none;
+  max-height: 20px;
+  background-color: green;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 5%;
+  display: flex;
+  right: 4%;
+  border: 3px solid white;
+  text-align: center;
+}
+
+.letra__nome {
+  position: absolute;
+  font-size: 1.9rem;
+  color: white;
+  font-weight: bold;
+  color: red;
+  right: 35%;
+  color: white;
+  text-transform: uppercase;
+  margin-top: -20%;
+}
+
+.letranome :hover {
+  background-color: red;
+}
+
+.sair {
+  margin-top: 4%;
+  width: 80px;
+  text-align: center;
+  height: 90px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin-left: 92%;
+  background-color: green;
+  text-decoration: none;
+  padding: 10px 1px;
+  text-decoration: none;
+}
+
+.sair a {
+  color: green;
+  padding: 20px 10px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}/*# sourceMappingURL=painel.css.map */

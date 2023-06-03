@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@200&display=swap");
+body {
+    font-family: "Fira Sans", sans-serif;
+  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: url("https://br.freepik.com/fotos-gratis/vista-aerea-da-praia-com-montanhas-verdes-e-edificios-machico-madeira_28644355.htm#query=travel&position=0&from_view=search&track=sph");
+  height: 100vh;
+  background-color: rgb(47, 165, 149);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.form {
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  border-radius: 5px;
+  animation: bounceInRight;
+  animation-duration: 1s;
+}
+
+.input {
+  padding: 9px 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  width: 400px;
+  margin-left: 2%;
+}
+
+i {
+  margin-left: -7%;
+  color: rgb(11, 97, 57);
+}
+
+.btn {
+  padding: 15px 160px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(28, 134, 85);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.btn:hover {
+  transition: 1.2s;
+  background-color: rgb(95, 184, 142);
+  cursor: pointer;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 2px solid rgb(7, 233, 128);
+  outline: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    border-radius: 5px;
+    animation: bounceInRight;
+    animation-duration: 1s;
+  }
+  .input {
+    padding: 9px 20px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    width: 240px;
+  }
+  i {
+    margin-left: -15%;
+  }
+  .btn {
+    padding: 10px 70px;
+  }
+}/*# sourceMappingURL=cadastro.css.map */
