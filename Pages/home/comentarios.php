@@ -1,7 +1,9 @@
 <?php
+
+
 // Inicie a sessão (se ainda não estiver iniciada)
 session_start();
-
+include('../LOGIN/protect.php');
 // Verifique se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Obtenha o valor do campo de comentário

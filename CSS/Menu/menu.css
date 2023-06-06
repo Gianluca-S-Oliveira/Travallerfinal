@@ -10,6 +10,17 @@ body {
   font-family: 'Roboto Slab', serif;
   scroll-behavior: smooth;
 }
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+.user a{
+  color: white;
+  font-size: 1.3rem;
+ 
+}
 .username{
 padding: 5px 10px;
 text-transform: uppercase;
@@ -20,6 +31,7 @@ text-transform: uppercase;
   margin-top:-1% ;
   border-radius: 50px;
   font-size: 1.2rem;
+  margin-right: 5pz;
 
 
 
@@ -87,11 +99,11 @@ nav .logo{
 }
 .logo img{
 
-  width: 90px;
+  width: 100px;
   border-radius: 100%;
   margin-top: 4%;
   height: 70px;
-  /* background-color: red; */
+
 }
 nav ul{
   display: flex;
@@ -147,7 +159,16 @@ input[type="checkbox"]{
 font-size: 35px;
 
   }
- 
+  .user {
+justify-content: space-between;
+align-items: center;
+margin: auto;
+width: 150px;
+  }
+  .username{
+    width: 50px;
+    margin-top: 18%;
+  }
   nav ul{
     position: fixed;
     top: 70px;

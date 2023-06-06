@@ -48,21 +48,24 @@ include('../LOGIN/protect.php')
       <i class="fas fa-bars"></i>
     </label>
     <ul >
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Carros</a></li>
-      <li><a href="#">Hotéis</a></li>
-      <li><a href="#">Restaurante</a>   
+      <li><a class="active" href="#banner">Home</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#carros">Carros</a></li>
+      <li><a href="#hoteis">Hotéis</a></li>
+      <li><a href="#restaurantes">Restaurante</a>   
    
 </li>
-<div id="teste">
+<div class="user">
   <li class="username" id="user">
     <?php 
     $nomeLogado = $_SESSION['nome']; 
-    echo substr($nomeLogado, 0, 2) 
+    echo substr($nomeLogado, 0, 2) ;
+
     
     ?>
 </li>
+<a href="../LOGIN/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+
 </div>
 
 
@@ -72,14 +75,9 @@ include('../LOGIN/protect.php')
         <a href="../LOGIN/logout.php">Sair</a>
     </p> -->
     </ul>
-  </nav><div class="sair" id="sairr">
-  <div class="centered-element">
-     <a href="../LOGIN/logout.php">SAIR DAQUI MEU</a>
-  </div>
-
-</div>
+  </nav>
     
-    <section class="banner" >
+    <section class="banner" id="banner">
            
         <img src="../../IMGS/home1.jpg" alt="foto de fundo">
         <div class="textbox" data-lax-scale="100 1, 100 1, 0 1, 0 0" 
@@ -111,7 +109,7 @@ include('../LOGIN/protect.php')
           </div>
         </div>
       </section>
-      <section class="video_container">
+      <section class="video_container" id="carros">
         <video src="../../videos/video_carros.mp4" loop muted autoplay class="video">        </video>
 
         <div class="texto">
@@ -122,15 +120,8 @@ include('../LOGIN/protect.php')
     </section>
       <br>
    
-<section class="restaurant_container">  
-  <!--Hey! This is the original version
-of Simple CSS Waves-->
+<section class="restaurant_container" id="restaurantes">  
 
-
-
-  <!--Content before waves-->
-
-  <!--Just the logo.. Don't mind this-->
 
   <div class="food">
     <img src="../../IMGS/prato1.png" alt="">
@@ -159,20 +150,20 @@ como vegetarianismo e veganismo, e restaurantes que atendam a essas demandas!</P
   </g>
   </svg>
   </div>
-  <!--Waves end-->
+
   
   </div>
 
 </section>
 
-<section class="sessao_hotel">
+<section class="sessao_hotel" id="hoteis">
  <div class="hotel_text">
 <h4 id="hoteis_text">Descubra Hoteis!!</h4>
-<p>A área de hotéis do projeto Traveller da FIAP oferece uma ampla variedade de opções de hospedagem para os viajantes, desde acomodações luxuosas até hostels econômicos. Com um sistema de reservas fácil de usar, é possível encontrar o lugar perfeito para ficar durante a sua viagem. Clique no botão para descobrir mais!</p>
+<p>A área de hotéis do projeto Traveller oferece uma ampla variedade de opções de hospedagem para os viajantes, desde acomodações luxuosas até hostels econômicos. Com um sistema de reservas fácil de usar, é possível encontrar o lugar perfeito para ficar durante a sua viagem. Clique no botão para descobrir mais!</p>
 
   </div>
 
-<div class="container">
+<div class="container" >
  
   <div id="wrapper" class="wrapper">
       <i id="left" class="fa-solid fa-angle-left"></i>
@@ -197,12 +188,11 @@ como vegetarianismo e veganismo, e restaurantes que atendam a essas demandas!</P
       </div>
       <i id="right" class="fa-solid fa-angle-right"></i>
   </div>
-<a href="../home/Hotel/index.php">AAAAAAAAAAAAAAAA</a>
+<!-- <a href="../home/Hotel/index.php">AAAAAAAAAAAAAAAA</a> -->
 </div>
 </section>
 
 
-<!-- FOOTER START -->
 <div class="footer">
   <div class="contain">
   <div class="col">
@@ -256,9 +246,9 @@ como vegetarianismo e veganismo, e restaurantes que atendam a essas demandas!</P
 <div class="clearfix"></div>
 </div>
 </div>
-<!-- END OF FOOTER -->
 
-<script></script><style>/* Import Google font - Poppins */
+
+<script></script><style>
 
   
 </style>

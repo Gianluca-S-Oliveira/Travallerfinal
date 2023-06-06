@@ -76,9 +76,12 @@ animation-duration: 1.2s;
     animation-duration: 1.5s;
 }
 .btn:hover{
-    background-image: linear-gradient(to right, #2e4242, #1daca4);
+ 
+box-shadow: 2px 2px 12px 9px white;   border: 2px solid #fcfcfc;
     color: white;
+    transition: 1.2s;
     cursor: pointer;
+
 border: none;
 }
 @media (max-width: 690px) {
