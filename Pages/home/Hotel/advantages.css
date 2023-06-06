@@ -1,0 +1,48 @@
+.containerr {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service {
+text-align: center;
+border: 2px solid #06a16d;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    color: #06a16d;
+
+  }
+
+  .icon {
+    font-size: 3.3rem;
+    /* color: #06a16d; */
+  }
+  
+  .titles {
+    text-align: center;
+  }
+    .service:hover{
+    background-color: #06a16d;
+    color: white;
+    transition: 1.3s;
+      }
+  .section-titles {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.8rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .roww {
+      justify-content: flex-start;
+    }
+  }
+  

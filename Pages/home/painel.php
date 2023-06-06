@@ -115,7 +115,7 @@ include('../LOGIN/protect.php')
         <div class="texto">
         <h3>PROCURE E <span>ENCONTRE</span> O CARRO IDEAL PARA SUA VIAJEM!</h3>
         <p>Confira preços de carros e escolha o que te agradar!</p>
-        <button id="btn">ENCONTRE JÁ</button>
+        <a id="btn" href="./Carros/index.html">ENCONTRE JÁ</a>
       </div>  
     </section>
       <br>
@@ -131,7 +131,8 @@ include('../LOGIN/protect.php')
 tendo indicações de restaurantes mais próximos dos pontos turísticos e dicas de como fazer reservas antecipadas. Além disso, o portal oferecerá 
 informações sobre dietas especiais, 
 como vegetarianismo e veganismo, e restaurantes que atendam a essas demandas!</P>
-    <button id="btn_restaurante">VER RESTAURANTES</button>
+    <a id="btn_restaurante"  href="./Restaurante/index.html">VER RESTAURANTES</a>
+  
   </div>
   </div>
   
@@ -160,7 +161,7 @@ como vegetarianismo e veganismo, e restaurantes que atendam a essas demandas!</P
  <div class="hotel_text">
 <h4 id="hoteis_text">Descubra Hoteis!!</h4>
 <p>A área de hotéis do projeto Traveller oferece uma ampla variedade de opções de hospedagem para os viajantes, desde acomodações luxuosas até hostels econômicos. Com um sistema de reservas fácil de usar, é possível encontrar o lugar perfeito para ficar durante a sua viagem. Clique no botão para descobrir mais!</p>
-
+<a href="./Hotel/index.html">ver hoteis</a>
   </div>
 
 <div class="container" >

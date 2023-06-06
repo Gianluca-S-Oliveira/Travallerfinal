@@ -1,0 +1,161 @@
+    
+    #head {
+        height: 85vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("./rooom.jpg");
+        background-attachment: fixed;
+        color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #head h1{
+        font-size: 2.9rem;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.692);
+    
+      }
+      #head p {
+       
+        font-size: 1.4rem;
+        width: 500px;
+        margin: auto;
+    color: rgb(255, 255, 255);
+        
+      }
+      .main__text{
+    
+    padding: 20px;    
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+      }
+      .main__text h1{
+        color: white;
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(230, 230, 230, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: white;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.733);
+      }
+      #main, #drinks {
+        background:#f8f8f8;
+        padding-top:50px;
+        padding-bottom:50px;
+      }
+      
+      #mainImg img, #drinks img{
+          max-width:100%;
+        height:420px;
+        width:440px;
+          border: 15px solid #ececec;
+      }
+      
+      #drinks img {
+        order:1;
+      }
+      
+      .title {
+        float:left;
+        font-weight:bold;
+        font-style:italic;
+      }
+      
+      #mainProd p, #drinksProd p{
+        text-align:left;
+           word-wrap: break-word;
+          word-break: break-all; 
+        width:430px;
+        max-width:100%;
+      }
+      
+      #drinksProd {
+        order:2;
+        max-width:100%;
+      }
+      
+      .price {
+        float:right;
+        font-weight:bold;
+      }
+      
+      #mainMenu, #drinksMenu {
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        padding-top:40px;
+      }
+      
+      #mainProd {
+        padding-right:50px;
+        max-width:100%;
+      }
+      
+      #drinksProd {
+        padding-left:50px;
+        max-width:100%;  
+      }
+      
+      
+      
+      #drinksFooter {
+        position: absolute;
+        height: 80px;
+        background: #272727;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 7px;
+        color: white;
+        padding-top: 20px;
+      }
+      
+      #drinksFooter i {
+        float: right;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      #drinksFooter i:hover {
+        color: blue;
+      }
+      
+      
+      @media screen and (max-width: 765px) {
+        #head {
+        
+          z-index: -1;
+        }
+      }
+      
+      @media screen and (max-width:500px) {
+        #head {
+          padding-top: 50px;
+        }
+      }
+      
+      @media screen and (min-width:1600px) {
+        #mainProd {
+          padding-right: 130px;
+        }
+        
+          #drinksProd {
+          padding-left: 130px;
+        }
+      }
+      
+      @media screen and (min-width: 765px) {
+      #first, #second {
+        padding-right:20px;
+      }
+      
+      }
+      
