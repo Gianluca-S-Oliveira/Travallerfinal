@@ -61,7 +61,11 @@ body{
     justify-content: space-between;
     place-items: center;
   }
-     
+  .food_text a{
+    text-decoration: none;
+    text-align: center;
+    
+  }
   .food_text::after {
     position: absolute;
     top: 0;

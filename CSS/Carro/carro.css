@@ -50,9 +50,10 @@ font-size: 1.4;
   font-size: 1.2rem;
   width: 300px;
   margin: auto;
-
+text-decoration: none;
   
 }
+
 #btn:hover{
 box-shadow: 2px 2px 11px 9px white;
 cursor:pointer;

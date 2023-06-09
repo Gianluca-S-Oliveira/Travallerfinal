@@ -161,7 +161,10 @@ como vegetarianismo e veganismo, e restaurantes que atendam a essas demandas!</P
  <div class="hotel_text">
 <h4 id="hoteis_text">Descubra Hoteis!!</h4>
 <p>A área de hotéis do projeto Traveller oferece uma ampla variedade de opções de hospedagem para os viajantes, desde acomodações luxuosas até hostels econômicos. Com um sistema de reservas fácil de usar, é possível encontrar o lugar perfeito para ficar durante a sua viagem. Clique no botão para descobrir mais!</p>
-<a href="./Hotel/index.html">ver hoteis</a>
+<br>
+<br>
+<br>
+<a href="./Hotel/index.html">VER HOTEIS</a>
   </div>
 
 <div class="container" >

@@ -37,7 +37,14 @@ margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
 }
-
+a{
+  padding: 10px 40px;
+background-color:#02ccb1 ;
+color: white;
+text-decoration: none;
+border-radius: 20px;
+margin-top: 20px;
+}
 .wrapper {
   display: flex;
   max-width: 82%;
